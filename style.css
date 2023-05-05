@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.container-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-radio input[type="radio"] {   
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label:not(.container-radio label) {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    /* resize: none; */
+}
+
+button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    font-style:italic;
+    color: rgb(131, 64, 64);
+}
+
+footer{
+    background-color: #798774;
+    color: #fff;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    position: relative;
+}
+
+textarea #output-text {
+    background-image: url('./encript.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10%;
+    height: 10%;
+    padding: 5px;
+}
+
+textarea #output-text:focus {
+    background-image: none;
+}

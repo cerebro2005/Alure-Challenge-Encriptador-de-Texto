@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Encriptador de Texto</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="container">
+          <h1>Encriptador de Texto</h1>
+          <label for="input-text">Ingresa el texto:</label>
+          <textarea id="input-text" rows="4"></textarea>
+          <div class="container-radio">
+            <input type="radio" id="encrypt-radio" name="operation" value="encrypt" checked>
+            <label for="encrypt-radio">Encriptar</label>
+            <input type="radio" id="decrypt-radio" name="operation" value="decrypt">
+            <label for="decrypt-radio">Desencriptar</label>
+          </div>
+          <button id="submit-button">Enviar</button>
+          <label for="output-text">Texto Encriptado/Desencriptado:</label>
+          <textarea id="output-text" rows="4" readonly></textarea>
+          <button id="copy-button">Copia/Pega</button>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div>
+            <p>&copy; Copyright by Almeida Martín Ariel - 2023</p>
+            <p><small>Todos los derechos reservados.</small></p>
+            <p>Email:almeidamartinariel@gmail.com</p>
+        </div>
+    </footer>
+      <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+
+# Archivos generados por el sistema
+.DS_Store
+
+# Carpeta de dependencias de Node.js
+node_modules/
+
+# Archivo generado autoamticamente por el vscode
+.vscode/
+vscode/
+# Archivos de registro
+*.log
+
+# Archivos de texto
+*.txt
+
+# Carpeta de compilación
+dist/
+
+# Carpeta de construcción
+build/
+
+# Archivos de configuración específicos del entorno de desarrollo
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
